@@ -4,12 +4,21 @@
     box-sizing: border-box;
 }
 
+/* Common */
 .container {
-    margin: 1% auto;
+    margin: 1.5% auto;
     width: 80%;
 }
 
-header{
-    background-color: palevioletred;
-    padding: 3%;
+
+/* Intestazione pagina */
+header {
+    padding: 4%;
+    background-color: rgba(209, 73, 180, 0.644);
+}
+
+nav {
+    margin-top: 1.5%;
+    padding: 20%;
+    background-color: rgba(187, 187, 0, 0.397);
 }
