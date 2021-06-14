@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 1% auto;
+    width: 80%;
+}
+
+header{
+    background-color: palevioletred;
+    padding: 3%;
+}
