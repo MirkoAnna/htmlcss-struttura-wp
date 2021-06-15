@@ -17,46 +17,40 @@
 }
 
 /* Intestazione pagina */
-header {
+.menù {
     margin-top: 2%;
     padding: 4%;
     background-color: rgba(209, 73, 180, 0.644);
 }
 
-nav {
+.banner {
     margin-top: 2%;
     padding: 20%;
     background-color: rgba(187, 187, 0, 0.397);
 }
 
-.main-container {
+main {
     width: 100%;
     margin-top: 2%;
-    background-color:rgba(13, 158, 241, 0.76);
+    background-color: blue;
 }
 
-.border {
-    border: solid 5px blue;
-    border-top: solid 10px blue;
-    border-bottom: solid 10px blue;
-    padding: 3%;
+.column {
+    background-color: rgb(0, 195, 255);
+    margin: 1%;
+    padding: 1%;
 }
 
-.float1 {
-    border-left: 0;
+.column-left,
+.column-right {
     float: left;
-    width: 25%;
+    width: 23%;
+    margin-left: none;
 }
 
-.float2 {
+.column-center {
     float: left;
-    width: 50%;
-}
-
-.float3 {
-    float: left;
-    width: 25%;
-    border-right: 0;
+    width: 48%;
 }
 
 /* Footer */
